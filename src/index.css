@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background: #1A1920;
+  font-family: "Poppins", sans-serif !important;
+  color:white;
+}
+
+::-webkit-scrollbar {
+  width: 7px; /* Set the width of the scroll bar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #747474; /* Change the color on hover */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#505050 ; /* Set the color of the scroll bar */
+  border-radius: 8px; /* Add rounded corners to the scroll bar handle */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00000000; /* Set the color of the scroll bar track */
+}
+
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+  background: #4d4d4d; /* Change the color when the scroll bar is clicked */
+}
